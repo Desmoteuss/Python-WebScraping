@@ -2,12 +2,12 @@ from selenium import webdriver
 import openpyxl
 
 Path = "C:\chromedriver.exe"
-ExcelPath = "D:\\Project.xlsx"
+ExcelPath = ".\Project.xlsx"
 driver = webdriver.Chrome(Path)
 driver.get("https://rpa.hybrydoweit.pl")
 AriculeTitlesList= ['Tytul']
 AreaList= ['Branza']
-LinkList= ['Link']
+LinkList= ['Link do artykułu']
 
 AriculeTitles = driver.find_elements_by_xpath("html/body/section/div/div/div/article/a")
 
