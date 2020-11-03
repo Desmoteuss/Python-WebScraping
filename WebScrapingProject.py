@@ -76,28 +76,3 @@ wb.save(ExcelPath)
 
 
 
-
-
-
-
-
-# ws.append([links])
-
-# df = pd.DataFrame() 
-
-# df['link'] = links[0::2] 
-
-
-
-# for c in sheet['A']
-# sh.value=href
-
-
-# for r in range(1,max_row+1):
-#     for c in range(1,max_column+1):
-#         print(sh.cell(row=r, column=c).href)
-
-# for c in sheet['A']:
-#    print(c.value)
-
-
